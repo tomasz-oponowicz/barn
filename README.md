@@ -18,7 +18,7 @@ Barn is a sample [Vagrant](https://www.vagrantup.com/) configuration. [Unison](h
 
 * Install [Git](https://git-scm.com/):
 
-      brew install git
+        brew install git
 
 * Clone repository:
 
