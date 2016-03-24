@@ -6,15 +6,15 @@ Barn is a sample [Vagrant](https://www.vagrantup.com/) configuration. [Unison](h
 
 * Install [VirtualBox](https://www.virtualbox.org/):
 
-      brew cask install virtualbox
+        brew cask install virtualbox
 
 * Install [Vagrant](https://www.vagrantup.com/):
 
-      brew cask install vagrant
+        brew cask install vagrant
 
 * Install [Unison](https://www.cis.upenn.edu/~bcpierce/unison/) __2.48.3__:
 
-      brew install unison
+        brew install unison
 
 * Install [Git](https://git-scm.com/):
 
@@ -22,23 +22,23 @@ Barn is a sample [Vagrant](https://www.vagrantup.com/) configuration. [Unison](h
 
 * Clone repository:
 
-      git clone git@github.com:tomasz-oponowicz/barn.git
+        git clone git@github.com:tomasz-oponowicz/barn.git
 
 * Change directory:
 
-      cd <barn-workspace>
+        cd <barn-workspace>
 
 * Create and configure the guest machine:
 
-      vagrant up
+        vagrant up
 
 * Connect to the guest machine:
 
-      vagrant ssh
+        vagrant ssh
 
 * Start bidirectional synchronization between the host and the guest in a new terminal window:
 
-      cd <barn-workspace>
-      ./sync.sh
+        cd <barn-workspace>
+        ./sync.sh
 
   ...`./projects` (host) is synchronized with `/home/vagrant/projects` (guest).
