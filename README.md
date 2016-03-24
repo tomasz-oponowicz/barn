@@ -2,7 +2,7 @@
 
 Barn is a sample [Vagrant](https://www.vagrantup.com/) configuration. [Unison](https://www.cis.upenn.edu/~bcpierce/unison/), a bidirectional file synchronization tool, is used to synchronize data between host and guest. The guest machine comes with [Docker](https://www.docker.com/) preinstalled.
 
-# Run (OS X hint)
+## Run (OS X hint)
 
 * Install [VirtualBox](https://www.virtualbox.org/):
 
