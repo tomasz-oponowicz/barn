@@ -71,9 +71,12 @@ Vagrant.configure(2) do |config|
     # install unison 2.48.3
     cd / && curl -sL http://ala.seblu.net/packages/u/unison/unison-2.48.3-2-x86_64.pkg.tar.xz | tar Jx
 
-    # install docker
+    # install the latest docker
     sudo apt-get update
-    sudo apt-get install -y docker.io
+    sudo curl -sSL https://get.docker.com/ | sudo sh
+    sudo gpasswd -a vagrant docker
+    sudo service docker restart
+
 
     # create synchronization directory
     cd /home/vagrant
